@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mis Contactos</string>
+    <string name="botonAgregar">Agregar</string>
+    <string name="botonAceptar">Aceptar</string>
+    <string name="titulo">Informacion de contacto</string>
+    <string name="lblUsuario">Usuario</string>
+    <string name="lblEmail">Email</string>
+    <string name="lblTwitter">Twitter</string>
+    <string name="lblTel">Tel</string>
+    <string name="lblFecNac">Fecha Nac</string>
+</resources>

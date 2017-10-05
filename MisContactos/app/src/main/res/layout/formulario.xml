@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblUsuario"
+        android:text="@string/lblUsuario"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingTop="20dp"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txtUsuario"
+        android:layout_below="@id/lblUsuario"
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblEmail"
+        android:text="@string/lblEmail"
+        android:layout_below="@id/txtUsuario"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:layout_below="@id/lblEmail"
+        />
+
+    <TextView
+        android:id="@+id/lblTwitter"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTwitter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_below="@id/txtEmail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTwitter"
+        android:hint="'@"
+        android:layout_below="@id/lblTwitter"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAceptar"
+        android:text="@string/botonAceptar"
+        android:layout_below="@id/txtTwitter"
+        />
+</RelativeLayout>
