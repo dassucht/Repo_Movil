@@ -12,6 +12,8 @@ public class Contacto implements Parcelable {
     private String usuario;
     private String email;
     private String twitter;
+    private String telefono;
+    private String fecha_nacimiento;
 
     public String getUsuario() {
         return usuario;
