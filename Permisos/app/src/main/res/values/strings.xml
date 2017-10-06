@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Permisos</string>
+    <string name="btnLocation">Solicitar permiso Locacion</string>
+    <string name="btnAudio">Solicitar permiso Audio</string>
+</resources>
